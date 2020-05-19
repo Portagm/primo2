@@ -1,0 +1,11 @@
+@media (min-width: 320px) {
+  .wrap__title {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 641px) {
+  .wrap__title {
+    font-size: 32px;
+  }
+}
