@@ -1,3 +1,4 @@
+master2
 .mobile-menu {
   position: fixed;
   display: flex;
@@ -96,4 +97,16 @@
 .mobile-menu__checkbox:checked ~ .mobile-menu__btn .mobile-menu__icon::before {
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
+=======
+@media (min-width: 320px) {
+  .wrap__title {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 641px) {
+  .wrap__title {
+    font-size: 32px;
+  }
+master
 }
